@@ -1,0 +1,21 @@
+(DATABASE) - la struttura di una tabella di auto usate:
+
+NOME COLONNA    RAPPRESENTAZIONE    TIPO DI DATO      ATTRIBUTI
+
+id              numero              INT               PRIM KEY - UNIQUE - AUTO_INCREMENT
+Marca           stringa             VARCHAR(150)      NOTNULL
+Modello         stringa             VARCHAR(150)      NOTNULL
+Anno            numero              YEAR              NOTNULL
+Km              numero              INT               -
+Tipo veicolo*   stringa             VARCHAR(50)       -
+Carburante      stringa             VARCHAR(50)       -
+Cambio          strtinga            VARCHAR(50)       -
+Porte           numero              TYNYINT           -
+Descrizione     strtinga            TEXT              -
+Prezzo          numero              FLOAT(9, 2)       NOTNULL
+Foto            strtinga            VARCHAR(250)      DEFAULT(img/path/foto.png)
+
+
+
+
+Tipo veicolo* = (Utilitaria, Berlina, Monovolume, Station Wagon, SUV, Cabrio, Coupe)
